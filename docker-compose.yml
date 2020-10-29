@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    privileged: true
+    restart: always
+    volumes:
+      - ./frontend:/frontend
+      - /frontend/node_modules
+
+  project_service:
+    container_name: project_service
+    build:
+      context: backend/project_service
+      dockerfile: Dockerfile
+    ports:
+      - 3001:3000
+    privileged: true
+    restart: always
+    volumes:
+      - ./backend/project_service:/backend/project_service
+      - /backend/project_service/node_modules
