@@ -9,9 +9,9 @@
       :breakpoint="200"
       content-class="bg-grey-5 q-pt-xl"
       show-if-above
-      v-model="DrawerOpen"
+      v-model="drawerOpen"
     >
-      <DrawerLink v-for="link in DrawerLinks" :linkName="link.name" v-bind:key="link.name">
+      <DrawerLink v-for="link in drawerLinks" :linkName="link.name" v-bind:key="link.name">
       </DrawerLink>
     </q-drawer>
     <q-page-container>
@@ -29,8 +29,8 @@ export default {
   },
   data () {
     return {
-      DrawerOpen: true,
-      DrawerLinks: [
+      drawerOpen: true,
+      drawerLinks: [
         { name: 'Home' },
         { name: 'About' },
         { name: 'Projects' },

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="linkName" v-on:click="redirect">
+    <div class="linkName text-h5" v-on:click="redirect">
       {{linkName}}
     </div>
     <q-separator />
@@ -20,10 +20,13 @@ export default {
   methods: {
     redirect () {
       const nextRoute = this.linkName.toLowerCase()
-      const actualRoute = this.$router.currentRoute.fullPath.substr(1)
+      const actualRoute = this.removeBackslash(this.$router.currentRoute.fullPath)
       if (actualRoute !== nextRoute) {
         this.$router.push(nextRoute)
       }
+    },
+    removeBackslash (originalString) {
+      return originalString.substr(1)
     }
   }
 }
@@ -31,7 +34,6 @@ export default {
 
 <style scoped >
  .linkName {
-   font-size: 2em;
    padding-left: 0.2em;
  }
 
