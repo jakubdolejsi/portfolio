@@ -7,7 +7,7 @@ import InvalidUrl from "../Response/InvalidUrl";
 | Import all controllers                                                                                   |
 |  ---------------------------------------------------------------------------------------------------------
 */
-import projectsController from "../controllers/projectsController";
+import userController from "../controllers/userController";
 
 /* ---------------------------------------------------------------------------------------------------------
 |  GET home page.                                                                                          |
@@ -21,14 +21,15 @@ router.get('/', (req, res, next) => {
 
 
 /* ---------------------------------------------------------------------------------------------------------
-|  Project router                                                                                          |
-|  Project router is responsible for routing to all endpoints that are managing projects                   |                                                                                     |
+|  User router                                                                                          |
+|  User router is responsible for routing to all endpoints that are managing projects                   |                                                                                     |
 |                                                                                                          |
 | ---------------------------------------------------------------------------------------------------------
 */
-router.get( '/project', projectsController.GetAllProjects)
-router.post( '/project', projectsController.CreateProject)
-router.get( '/project/:id', projectsController.GetProjectById)
+router.get( '/user/:id', userController.GetUserById)
+router.post( '/user/:id', userController.CreateUserById)
+router.put( '/user/:id', userController.UpdateUserById)
+router.delete( '/user/:id', userController.DeleteUserById)
 
 
 /* ---------------------------------------------------------------------------------------------------------

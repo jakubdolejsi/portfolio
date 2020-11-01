@@ -1,12 +1,11 @@
 <template>
   <q-page class="">
     <div class="row">
-      <div class="col-4 bg-blue-3 flex flex-center column">
-        <h5>
-          Load project
-        </h5>
+      <div class="col-6 bg-blue-3 flex flex-center column">
+        <project-dashboard v-if="dashboard"></project-dashboard>
+        <project-uploader v-else></project-uploader>
       </div>
-      <div class="col-8 bg-blue-5 flex flex-center column">
+      <div class="col-6 bg-blue-5 flex flex-center column">
         <h5 class="">
           My projects
         </h5>
@@ -28,7 +27,9 @@
 export default {
   name: 'ProjectsPage',
   components: {
-    ProjectContainer: () => import('components/ProjectContainer.vue')
+    ProjectContainer: () => import('components/ProjectContainer.vue'),
+    ProjectUploader: () => import('components/ProjectUploader.vue'),
+    ProjectDashboard: () => import('components/ProjectDashboard.vue')
   },
   data () {
     return {
@@ -47,21 +48,31 @@ export default {
         content: this.lorem
       }
       const iosTestProj = {
-        name: 'weidRC',
+        name: 'wedi',
         content: this.lorem
       }
       const ialTestProj = {
         name: 'sorting',
         content: this.lorem
       }
+      const imsTestProj = {
+        name: 'modeling and simulation',
+        content: this.lorem
+      }
       this.projectsList.push(izpTestProj)
       this.projectsList.push(ifjTestProj)
       this.projectsList.push(iosTestProj)
       this.projectsList.push(ialTestProj)
+      this.projectsList.push(imsTestProj)
     }
   },
   created () {
     this.pseudoFetchData()
+  },
+  computed: {
+    dashboard () {
+      return this.$store.state.dashboard.name
+    }
   }
 }
 </script>

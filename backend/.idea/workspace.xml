@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="249741b4-fe6d-4423-8526-9ad7c10a236a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project_service/Response/InvalidUrl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_service/db/Connection.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_service/models/Project.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/project_service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_service/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project_service/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_service/controllers/projectsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project_service/controllers/projectsController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project_service/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project_service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_service/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/project_service/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/ProjectContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/ProjectContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/ProjectDashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/ProjectDashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/components/ProjectUploader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/components/ProjectUploader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/pages/ProjectsPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/pages/ProjectsPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/store/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jhvu2wT8WIx2vyPWP4ee57MUNi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ts.external.directory.path" value="C:\Users\jakub\Documents\projects\portfolio\backend\user_service\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="249741b4-fe6d-4423-8526-9ad7c10a236a" name="Default Changelist" comment="" />
+      <created>1604269356969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604269356969</updated>
+      <workItem from="1604269358037" duration="496000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

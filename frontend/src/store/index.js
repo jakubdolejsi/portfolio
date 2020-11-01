@@ -19,7 +19,19 @@ export default function (/* { ssrContext } */) {
     modules: {
       // example
     },
-
+    state: {
+      dashboard: {
+        name: ''
+      }
+    },
+    mutations: {
+      ActiveDashboard (state, payload) {
+        state.dashboard.name = payload.name
+      },
+      DeactivateDashboard (state) {
+        state.dashboard.name = ''
+      }
+    },
     // enable strict mode (adds overhead!)
     // for dev mode only
     strict: process.env.DEBUGGING

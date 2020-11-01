@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7292d5b-d70d-4b5e-b8e3-9147289a5e95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/project_service/Response/InvalidUrl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/project_service/db/Connection.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/project_service/models/Project.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/project_service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/project_service/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/project_service/controllers/projectsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/controllers/projectsController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/project_service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/project_service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/project_service/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectDashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectDashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectUploader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectUploader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProjectsPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProjectsPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jf0naViQNSpByzIAcWnUEh0SwV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/user_service" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Users\jakub\Documents\projects\portfolio\backend\user_service\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml.project_service_db: Compose Deployment">
+    <configuration name="Node" type="NodeJSConfigurationType" path-to-js-file="backend/project_service/bin/www.ts" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.project_service_db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="project_service_db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.project_service_db: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7292d5b-d70d-4b5e-b8e3-9147289a5e95" name="Default Changelist" comment="" />
+      <created>1604180007197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604180007197</updated>
+      <workItem from="1604180008298" duration="2338000" />
+      <workItem from="1604224507997" duration="34082000" />
+      <workItem from="1604262807549" duration="4222000" />
+      <workItem from="1604268268567" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="37" y="-902" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604181744901">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="37" y="-902" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604181744901" />
+    <state x="302" y="-755" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604236331072">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="302" y="-755" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604236331072" />
+    <state x="313" y="-810" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604181811142">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="313" y="-810" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604181811142" />
+    <state x="363" y="-802" key="FileChooserDialogImpl" timestamp="1604268313707">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="363" y="-802" key="FileChooserDialogImpl/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604268313707" />
+    <state width="1350" height="347" key="GridCell.Tab.0.bottom" timestamp="1604182368338">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368338" />
+    <state width="1350" height="347" key="GridCell.Tab.0.center" timestamp="1604182368338">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368338" />
+    <state width="1350" height="347" key="GridCell.Tab.0.left" timestamp="1604182368337">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368337" />
+    <state width="1350" height="347" key="GridCell.Tab.0.right" timestamp="1604182368338">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368338" />
+    <state width="1350" height="347" key="GridCell.Tab.1.bottom" timestamp="1604182368339">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368339" />
+    <state width="1350" height="347" key="GridCell.Tab.1.center" timestamp="1604182368339">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368339" />
+    <state width="1350" height="347" key="GridCell.Tab.1.left" timestamp="1604182368338">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368338" />
+    <state width="1350" height="347" key="GridCell.Tab.1.right" timestamp="1604182368339">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368339" />
+    <state width="1350" height="347" key="GridCell.Tab.2.bottom" timestamp="1604182368340">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.2.bottom/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368340" />
+    <state width="1350" height="347" key="GridCell.Tab.2.center" timestamp="1604182368340">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.2.center/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368340" />
+    <state width="1350" height="347" key="GridCell.Tab.2.left" timestamp="1604182368340">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.2.left/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368340" />
+    <state width="1350" height="347" key="GridCell.Tab.2.right" timestamp="1604182368340">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.2.right/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368340" />
+    <state width="1350" height="347" key="GridCell.Tab.3.bottom" timestamp="1604182368341">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.3.bottom/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368341" />
+    <state width="1350" height="347" key="GridCell.Tab.3.center" timestamp="1604182368341">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.3.center/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368341" />
+    <state width="1350" height="347" key="GridCell.Tab.3.left" timestamp="1604182368341">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.3.left/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368341" />
+    <state width="1350" height="347" key="GridCell.Tab.3.right" timestamp="1604182368341">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1350" height="347" key="GridCell.Tab.3.right/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604182368341" />
+    <state x="84" y="-912" key="SettingsEditor" timestamp="1604181569880">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="84" y="-912" key="SettingsEditor/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604181569880" />
+    <state x="170" y="-942" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604254555340">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="170" y="-942" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604254555340" />
+  </component>
+</project>

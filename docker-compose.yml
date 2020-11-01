@@ -26,3 +26,61 @@ services:
     volumes:
       - ./backend/project_service:/backend/project_service
       - /backend/project_service/node_modules
+    links:
+      - project_mongodb
+    depends_on:
+      - project_mongodb
+
+  project_mongodb:
+    container_name: project_mongodb
+    image: mongo
+    environment:
+      - ENV=development
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/dev/null
+      - MONGODB_USER=root
+      - MONGODB_PASS=developmentPassword
+    volumes:
+    - project-db:/data/db
+    ports:
+      - 27017:27017
+    command: mongod --port 27017
+
+  user_service:
+    container_name: user_service
+    build:
+      context: backend/user_service
+      dockerfile: Dockerfile
+    ports:
+      - 3002:3000
+    privileged: true
+    restart: always
+    volumes:
+      - ./backend/user_service:/backend/user_service
+      - /backend/user_service/node_modules
+    links:
+      - user_mongodb
+    depends_on:
+      - user_mongodb
+
+  user_mongodb:
+    container_name: user_mongodb
+    image: mongo
+    environment:
+      - ENV=development
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/dev/null
+      - MONGODB_USER=root
+      - MONGODB_PASS=developmentPassword
+    volumes:
+      - user-db:/data/db
+    ports:
+      - 27018:27018
+    command: mongod --port 27018 --bind_ip_all
+
+volumes:
+  project-db:
+  user-db:
+
+
+
