@@ -10,7 +10,7 @@
       <q-file
         outlined
         multiple
-        v-model="files"
+        v-model="selectedFiles"
         label="Upload project files"
         style="width: 300px"/>
 
@@ -35,7 +35,7 @@ export default {
   data () {
     return {
       languages: null,
-      files: null,
+      selectedFiles: null,
       selectedLanguage: null
     }
   },
@@ -44,12 +44,12 @@ export default {
       return ''
     },
     onReset () {
-      this.files = null
+      this.selectedFiles = null
       this.selectedLanguage = null
     },
     fetchLanguages () {
       this.languages = [
-        'c++', 'python'
+        'c', 'python'
       ]
     }
   },

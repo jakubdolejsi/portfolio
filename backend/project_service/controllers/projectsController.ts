@@ -1,10 +1,14 @@
 import {Request, Response} from 'express'
 import HttpResponse from "../Response/HttpResponse";
 import Project from "../models/Project";
+import { KafkaClient as Client } from 'kafka-node';
 
 
 
 const GetAllProjects = async (req: Request, res: Response) => {
+    const kafkaHost = 'localhost:3009'
+    const client = new Client({ kafkaHost });
+
     try {
         const proj = await Project.find()
         return HttpResponse.Success(res, proj, 200)

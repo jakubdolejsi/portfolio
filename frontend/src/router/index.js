@@ -14,8 +14,8 @@ Vue.use(VueRouter)
  * with the Router instance.
  */
 
-export default function (/* { store, ssrContext } */) {
-  return new VueRouter({
+export default async (/* { store, ssrContext } */) => {
+  const router = new VueRouter({
     scrollBehavior: () => ({
       x: 0,
       y: 0
@@ -28,4 +28,15 @@ export default function (/* { store, ssrContext } */) {
     mode: 'history',
     base: process.env.VUE_ROUTER_BASE
   })
+  router.beforeEach((to, from, next) => {
+    const publicPages = ['/auth']
+    const authRequired = !publicPages.includes(to.path)
+    const loggedIn = localStorage.getItem('authToken')
+
+    if (authRequired && !loggedIn) {
+      return next('/auth')
+    }
+    next()
+  })
+  return router
 }

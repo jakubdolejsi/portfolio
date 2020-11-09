@@ -1,14 +1,17 @@
 import {Request, Response} from 'express'
 import HttpResponse from "../Response/HttpResponse";
 import User from "../models/User";
-import fetch from 'node-fetch'
+import { KafkaClient as Client } from 'kafka-node';
 
 
 const GetUserById = async (req: Request, res: Response) => {
     //test calling project service
-    const response = await fetch('http://project_service:3000/api/project/5f9f32cda1b0030f40b1c28a')
-    const data = await response.json()
+    const kafkaHost = 'localhost:3003'
+    const client = new Client({ kafkaHost });
 
+    const data = {
+        testData: 'asdas'
+    }
     return HttpResponse.Success(res, data, 200)
 
 }

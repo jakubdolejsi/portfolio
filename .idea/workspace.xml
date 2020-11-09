@@ -20,21 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7292d5b-d70d-4b5e-b8e3-9147289a5e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/project_service/Response/InvalidUrl.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/project_service/db/Connection.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/project_service/models/Project.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/project_service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/project_service/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/NoLoggedLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/project_service/controllers/projectsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/controllers/projectsController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/project_service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/project_service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/project_service/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectContainer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectDashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectDashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_service/controllers/userController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_service/controllers/userController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_service/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/boot/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/boot/axios.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectUploader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectUploader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProjectsPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProjectsPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layouts/LoggedLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/routes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +51,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,7 +69,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/user_service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -105,6 +113,7 @@
       <workItem from="1604224507997" duration="34082000" />
       <workItem from="1604262807549" duration="4222000" />
       <workItem from="1604268268567" duration="45000" />
+      <workItem from="1604959530119" duration="6037000" />
     </task>
     <servers />
   </component>

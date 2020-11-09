@@ -1,8 +1,7 @@
-
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('layouts/LoggedLayout.vue'),
     children: [
       {
         path: '',
@@ -25,6 +24,10 @@ const routes = [
         component: () => import('pages/FunPage.vue')
       }
     ]
+  },
+  {
+    path: '/auth',
+    component: () => import('layouts/NoLoggedLayout.vue')
   },
   // Always leave this as last one,
   // but you can also remove it
