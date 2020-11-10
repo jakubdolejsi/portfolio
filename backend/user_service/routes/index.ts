@@ -1,7 +1,7 @@
 import express from 'express'
 const router = express.Router();
 import InvalidUrl from "../Response/InvalidUrl";
-
+import authRequired from '../middleware/TokenVerify'
 
 /* ---------------------------------------------------------------------------------------------------------
 | Import all controllers                                                                                   |
@@ -26,10 +26,12 @@ router.get('/', (req, res, next) => {
 |                                                                                                          |
 | ---------------------------------------------------------------------------------------------------------
 */
-router.get( '/user/:id', userController.GetUserById)
-router.post( '/user/:id', userController.CreateUserById)
-router.put( '/user/:id', userController.UpdateUserById)
-router.delete( '/user/:id', userController.DeleteUserById)
+router.get( '/user/:email', authRequired, userController.GetUser)
+router.post( '/user/', userController.CreateUser)
+router.put( '/user/', authRequired, userController.UpdateUser)
+router.delete( '/user/', authRequired,  userController.DeleteUser)
+
+router.post('/login/', userController.LoginUser)
 
 
 /* ---------------------------------------------------------------------------------------------------------

@@ -20,27 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7292d5b-d70d-4b5e-b8e3-9147289a5e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/NoLoggedLayout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/store/user/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user_service/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/user_service/middleware/TokenVerify.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/LoginForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/RegisterForm.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/project_service/controllers/projectsController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/controllers/projectsController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/project_service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/project_service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/project_service/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_service/controllers/userController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_service/controllers/userController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_service/db/Connection.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_service/db/Connection.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_service/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_service/models/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_service/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/user_service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_service/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/boot/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/boot/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProjectUploader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectUploader.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/layouts/MainLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/layouts/LoggedLayout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/router/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user_service/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user_service/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LoginPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +105,14 @@
       <workItem from="1604224507997" duration="34082000" />
       <workItem from="1604262807549" duration="4222000" />
       <workItem from="1604268268567" duration="45000" />
-      <workItem from="1604959530119" duration="6037000" />
+      <workItem from="1604959530119" duration="6169000" />
+      <workItem from="1604994400714" duration="4563000" />
+      <workItem from="1604999042871" duration="290000" />
+      <workItem from="1604999360558" duration="1597000" />
+      <workItem from="1605001009439" duration="946000" />
+      <workItem from="1605001994810" duration="2164000" />
+      <workItem from="1605024456773" duration="14760000" />
+      <workItem from="1605043909363" duration="659000" />
     </task>
     <servers />
   </component>
@@ -137,10 +136,10 @@
       <screen x="-104" y="-1080" width="1920" height="1040" />
     </state>
     <state x="37" y="-902" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604181744901" />
-    <state x="302" y="-755" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604236331072">
+    <state x="302" y="-755" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605038351442">
       <screen x="-104" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="302" y="-755" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604236331072" />
+    <state x="302" y="-755" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1605038351442" />
     <state x="313" y="-810" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604181811142">
       <screen x="-104" y="-1080" width="1920" height="1040" />
     </state>
@@ -221,5 +220,9 @@
       <screen x="-104" y="-1080" width="1920" height="1040" />
     </state>
     <state x="170" y="-942" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1604254555340" />
+    <state x="143" y="-851" key="search.everywhere.popup" timestamp="1605024906804">
+      <screen x="-104" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="143" y="-851" key="search.everywhere.popup/0.0.1920.1040/-104.-1080.1920.1040@-104.-1080.1920.1040" timestamp="1605024906804" />
   </component>
 </project>
